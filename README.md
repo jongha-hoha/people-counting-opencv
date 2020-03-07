@@ -1,30 +1,28 @@
 # people-counting-opencv
 
-### URL
+### í”„ë¡œì íŠ¸ URL
 https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/
 
-### ÆÄÀÌ½ã ¹öÁ¯
-
 ### requirements
-python 3.5
-opencv-python==3.4.7.28
-dlib==19.15.0
-numpy==1.14.3
-imutils==0.5.0
-scipy==1.1.0
+python 3.5  
+opencv-python==3.4.7.28  
+dlib==19.15.0  
+numpy==1.14.3  
+imutils==0.5.0  
+scipy==1.1.0  
 
-### conda ¼³Á¤
+### conda ì„¤ì •
 ```
 conda create --name py35pc python==3.5
 ```
 
-### ¶óÀÌºê·¯¸® ¼³Ä¡
+### ë¼ì´ë¸ŒëŸ¬ë¦¬ ì„¤ì¹˜
 ```
 conda activate py35pc
 pip install -r requirements.txt
 ```
 
-### how to run
+### ow to run
 ```
 python people_counter.py -p ./mobilenet_ssd/MobileNetSSD_deploy.prototxt -m ./mobilenet_ssd/MobileNetSSD_deploy.caffemodel
 ```
