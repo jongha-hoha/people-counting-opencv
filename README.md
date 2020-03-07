@@ -1,1 +1,1 @@
-"# people-counting-opencv" 
+# people-counting-opencv
