@@ -28,3 +28,7 @@ pip install -r requirements.txt
 ```
 python people_counter.py -p ./mobilenet_ssd/MobileNetSSD_deploy.prototxt -m ./mobilenet_ssd/MobileNetSSD_deploy.caffemodel
 ```
+If you want to run using your video run like below
+```
+python people_counter.py -p ./mobilenet_ssd/MobileNetSSD_deploy.prototxt -m ./mobilenet_ssd/MobileNetSSD_deploy.caffemodel -i ./videos/example_01.mp4 -o ./temp/example_01_out.mp4
+```
