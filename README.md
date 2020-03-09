@@ -30,3 +30,6 @@ If you want to run using your video run like below
 ```
 python people_counter.py -p ./mobilenet_ssd/MobileNetSSD_deploy.prototxt -m ./mobilenet_ssd/MobileNetSSD_deploy.caffemodel -i /path/your/input/video -o /path/to/save/output/video
 ```
+
+### Videos for input and output
+https://drive.google.com/open?id=18KQmnvScxiQkEqmdOoo5hjLpzn2zF9xU
