@@ -6,6 +6,7 @@ https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/
 ### Requirements
 python 3.5  
 opencv-python==3.4.7.28  
+cmake==3.16.3  
 dlib==19.15.0  
 numpy==1.14.3  
 imutils==0.5.0  
