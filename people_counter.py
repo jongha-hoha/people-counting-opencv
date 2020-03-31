@@ -35,7 +35,13 @@ ap.add_argument("-c", "--confidence", type=float, default=0.4,
 	help="minimum probability to filter weak detections")
 ap.add_argument("-s", "--skip-frames", type=int, default=30,
 	help="# of skip frames between detections")
+ap.add_argument("-g", '--gpu', help='comma separated list of GPU(s) to use.')
+    
+
 args = vars(ap.parse_args())
+
+if args.gpu:
+        os.environ['CUDA_VISIBLE_DEVICES'] = args["gpu"]
 
 # initialize the list of class labels MobileNet SSD was trained to
 # detect
